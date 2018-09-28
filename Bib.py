@@ -54,7 +54,7 @@ def pechat(dmy: object) -> object:
             yr.append(transform_num("."))
 
         yr.pop()
-        lines = ["" for _ in range(7)]
+        lines = [""] * 7
 
         for picture in yr:
             for i in range(7):
