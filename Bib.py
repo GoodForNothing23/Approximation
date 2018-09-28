@@ -27,7 +27,7 @@ def pechat(dmy: object) -> object:
         if len(num) < 2 or num[0] == "0":
             lst = list(zero)
         else:
-            lst = ["" for _ in range(7)]
+            lst = [""] * 7
         num = int(num)
         length = len(str(num))
         numerals_of_number = []
