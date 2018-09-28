@@ -97,5 +97,4 @@ if __name__ == '__main__':
             print("You don't enter dd.mm.yyyy date!")
             continue
 
-
     pechat(ymd)
